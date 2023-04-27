@@ -1,0 +1,13 @@
+.a{
+    empty-cells: hide;
+}
+.b{
+    empty-cells: show;
+}
+.c{
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+}

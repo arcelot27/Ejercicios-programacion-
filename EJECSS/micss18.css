@@ -1,0 +1,9 @@
+.a{
+    border-collapse: separate;
+}
+.b{
+    border-collapse: collapse;
+}
+.tr, td, th{
+    border:1px solid grey;
+}

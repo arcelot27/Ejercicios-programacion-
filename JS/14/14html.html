@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .btn-grup{
+            display: flex;
+        }
+        .btn-grup > p{
+            width: 20px;
+            height: 20px;
+            border: 1px solid black;
+            align-self: center;
+            text-align: center;
+        }
+        #resultados{
+            border: 1px solid black;
+            width: 60px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculadora">
+        <div>
+            <p id="resultados"></p>
+        </div>
+        <div >
+            <div class="btn-grup">
+                
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p data-type="operator" data-operation="delete">c</p>
+                
+            </div>
+            <div class="btn-grup">
+                
+                    <p data-type="number">1</p>
+                    <p data-type="number">8</p>
+                    <p data-type="number">9</p>
+                    <p data-type="operator" data-operation="sumar">+</p>
+               
+            </div>
+            <div class="btn-grup">
+              
+                    <p data-type="number">4</p>
+                    <p data-type="number">5</p>
+                    <p data-type="number">6</p>
+                    <p data-type="operator" data-operation="restar">-</p>
+            
+            </div>
+            <div class="btn-grup">
+           
+                    <p data-type="number">1</p>
+                    <p data-type="number">2</p>
+                    <p data-type="number">3</p>
+                    <p data-type="operator" data-operation="multiplicar">x</p>
+           
+            </div>
+            <div class="btn-grup">
+         
+                    <p>.</p>
+                    <p data-type="number">0</p>
+                    <p>=</p>
+                    <p data-type="operator" data-operation="dividir">/</p>
+            </div>
+        </div>
+
+    </div>
+<script>
+
+    let buttons = document.querySelectorA11(".btn-grup>p[data-type='number']");
+    let operations = document.querySelectorA11(".btn-grup > p[data-type='operator']");
+    let resultado = document.querySelector("#resultados");
+
+
+
+    btn.forEach(e =>{
+        e.eddEventlistener("cick" , () => {
+            if (resultado.innerHTML == 0) {
+                resultado.innterHTML = e.innterHTML;
+            } else {
+                resultado.innerHTML += e.innerHTML;
+            }
+            
+        })
+    });
+
+
+</script>
+</body>
+</html>

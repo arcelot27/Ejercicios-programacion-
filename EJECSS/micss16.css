@@ -1,0 +1,11 @@
+body{
+    color:cornflowerblue
+}
+.table1{
+    caption-side: bottom;
+    color:blue;
+}
+.table2{
+    caption-side: top;
+    color:blueviolet;
+}

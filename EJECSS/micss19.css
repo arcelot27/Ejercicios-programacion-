@@ -1,0 +1,23 @@
+body{
+    color: red;
+}
+.a{
+    border-collapse: separate;
+    border-spacing: 50px 10px;
+    color: brown;
+}
+.b{
+    border-collapse: collapse;
+    border-spacing: 40px;
+    color: tomato;
+}
+/*border-spacing solo tiene efecto cuando border-collapse: separate; */
+.c{
+    border-spacing: 0;
+    color: crimson;
+}
+/*border-spacing: 0 es igual que border-collapse: collapse*/
+
+tr, td, th {
+    border: 1px solid black;
+}

@@ -1,0 +1,18 @@
+.a{
+    background-color:red;
+}
+.b{
+    background-color: #ff0000;
+}
+.c{
+    background-color: rgb(255, 0, 0);
+}
+.d{
+    background-color: hsl(0, 100%,50%);
+}
+.e{
+    background-color:red; opacity: 0.5;
+}
+.f{
+    background-color: rgb(255, 0, 0, 0.5%);
+}

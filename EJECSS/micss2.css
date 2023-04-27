@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+.UNO {
+    text-align: right;
+    color: red;
+}
+#UNO {
+    text-align: left;
+    color: blueviolet;
+}
+
+#DOS {
+ 
+    text-indent: 1PX;
+}
+#TRES {
+    text-indent: 10%;
+}
+#a {
+    text-indent: 20%;
+}
+#b{
+    text-indent: 30%;
+}
+#c{
+    text-indent: 40%;
+}
+#d{
+    text-indent: 50%;
+}
+
+
+#e{
+    text-decoration: overline;
+}
+#f {
+    text-decoration: line-through;
+}
+#g {
+    COLOR: red;
+    TEXT-DECORATION: UNDERLINE;
+}
+
+
+#h {
+    word-spacing: 10px;
+}
+#i {
+    text-transform: capitalize;
+}
+#j{
+    text-transform: uppercase;
+}
+
+
+#k{
+    line-height: 50%;
+}
+#l{
+    vertical-align: top;
+}
+
+
+
+TD {
+    height: 100px; border: 1px solid red
+}
+.aaa{
+    vertical-align: top;
+}
+.bbb{
+    vertical-align: middle;
+}
+.ccc{
+    vertical-align: bottom;
+}
+
+
+.aa{
+    vertical-align: baseline;
+}
+.bb{
+    vertical-align: sub;
+}
+.cc{
+    vertical-align: super;
+}
+.dd{
+    vertical-align: -10px;
+}
